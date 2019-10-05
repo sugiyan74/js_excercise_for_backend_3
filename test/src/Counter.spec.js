@@ -3,8 +3,8 @@ const Counter = require('../../src/Counter');
 
 describe('Counter.jsテスト', () => {
     it('_countプロパティを持つ', () => {
-       const counter = new Counter();
-       assert.equal(counter.hasOwnProperty('_count'), true);
+        const counter = new Counter();
+        assert.equal(counter.hasOwnProperty('_count'), true);
     });
 
     it('_countプロパティの初期値は0である', () => {

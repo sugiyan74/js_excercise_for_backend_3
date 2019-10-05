@@ -1,15 +1,15 @@
 class Counter {
     constructor() {
-      this._count = 0;
+        this._count = 0;
     }
-  
+
     increment() {
-      this._count++;
+        this._count++;
     }
-  
+
     decrement() {
-      this._count--;
+        this._count--;
     }
-  }
-  
-  module.exports = Counter;
+}
+
+module.exports = Counter;
