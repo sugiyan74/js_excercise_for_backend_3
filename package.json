@@ -4,7 +4,7 @@
   "description": "このレポジトリは[Web白熱教室](https://tsuyopon.xyz/)の[JavaScriptの学習コンテンツ > JavaScriptバックエンド編](https://tsuyopon.xyz/learning-contents/web-dev/javascript/backend/)にある「[【エクササイズ】カウンターの要件定義と機能実装をする](https://tsuyopon.xyz/learning-contents/web-dev/javascript/backend/js-excercise-for-backend-3/)」で利用するものです。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sugiyan74/js_excercise_for_backend_3/issues"
   },
-  "homepage": "https://github.com/sugiyan74/js_excercise_for_backend_3#readme"
+  "homepage": "https://github.com/sugiyan74/js_excercise_for_backend_3#readme",
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "power-assert": "^1.6.1"
+  }
 }
